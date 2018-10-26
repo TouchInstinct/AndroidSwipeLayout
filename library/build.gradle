@@ -10,10 +10,10 @@ android {
 }
 
 dependencies {
-    //noinspection GradleDependency,NewerVersionAvailable,GradleCompatible
-    implementation 'com.android.support:recyclerview-v7:25.2.0'
-    //noinspection GradleDependency,NewerVersionAvailable,GradleCompatible
-    implementation 'com.android.support:support-v4:25.2.0'
+    //noinspection GradleDependency
+    implementation "com.android.support:recyclerview-v7:$supportLibraryVersion"
+    //noinspection GradleDependency
+    implementation "com.android.support:support-v4:$supportLibraryVersion"
 }
 apply from: './gradle-mvn-push.gradle'
 
