@@ -10,9 +10,7 @@ android {
 }
 
 dependencies {
-    //noinspection GradleDependency,NewerVersionAvailable,GradleCompatible
-    compile 'androidx.recyclerview:recyclerview:1.0.0'
-    //noinspection GradleDependency,NewerVersionAvailable,GradleCompatible
+    compile "androidx.recyclerview:recyclerview:$androidx"
     compile 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 apply from: './gradle-mvn-push.gradle'
